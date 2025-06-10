@@ -1,0 +1,2 @@
+Programación Tradicional: Usa funciones separadas. Una función pide los datos y se los pasa a otra función para que los calcule. Los datos y las funciones están sueltos.
+Programación Orientada a Objetos (POO): Crea un "objeto" que es responsable de todo. El objeto guarda sus propios datos (las temperaturas) y tiene sus propias funciones (llamadas "métodos") para trabajar con ellos. Es más organizado y autocontenido.
