@@ -107,7 +107,7 @@ def mostrar_menu_principal():
 
     while True:
         limpiar_pantalla()
-        print(f"{Colores.HEADER}{Colores.NEGRITA}--- 🚀 DASHBOARD DE PROYECTOS PYTHON 🚀 ---{Colores.RESET}")
+        print(f"{Colores.HEADER}{Colores.NEGRITA}---  DASHBOARD DE PROYECTOS PYTHON  ---{Colores.RESET}")
 
         # Imprime las opciones del menú de forma más amigable
         for key, value in opciones.items():
@@ -118,7 +118,7 @@ def mostrar_menu_principal():
         eleccion = input("\nElige un script o '0' para salir: ")
 
         if eleccion == '0':
-            print(f"\n{Colores.VERDE}¡Hasta luego! 👋{Colores.RESET}")
+            print(f"\n{Colores.VERDE}¡Hasta luego! {Colores.RESET}")
             break
         elif eleccion in opciones:
             # Construye la ruta absoluta del script seleccionado
